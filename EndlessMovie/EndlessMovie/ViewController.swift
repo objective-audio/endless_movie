@@ -6,14 +6,28 @@
 //
 
 import UIKit
+import AVFoundation
+import Combine
 
 class ViewController: UIViewController {
+    @IBOutlet weak var playerView: PlayerView!
+    
+    private var cancellables: Set<AnyCancellable> = .init()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        guard let url = Bundle.main.url(forResource: "sample", withExtension: "mov") else { fatalError() }
+        
+        let player = AVPlayer(url: url)
+        player.actionAtItemEnd = .none
+        
+        self.playerView.player = player
+        
+        NotificationCenter.default.publisher(for: .AVPlayerItemDidPlayToEndTime).sink { [weak self] _ in
+            self?.playerView.player?.seek(to: .zero)
+        }.store(in: &self.cancellables)
+        
+        player.play()
     }
-
-
 }
-

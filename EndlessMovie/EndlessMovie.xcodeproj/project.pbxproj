@@ -16,6 +16,7 @@
 		B624F68A24FFE05F0014EC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B624F68824FFE05F0014EC8D /* LaunchScreen.storyboard */; };
 		B624F69524FFE05F0014EC8D /* EndlessMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F69424FFE05F0014EC8D /* EndlessMovieTests.swift */; };
 		B624F6A024FFE05F0014EC8D /* EndlessMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F69F24FFE05F0014EC8D /* EndlessMovieUITests.swift */; };
+		B624F6AE24FFE0F80014EC8D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F6AD24FFE0F80014EC8D /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B624F69B24FFE05F0014EC8D /* EndlessMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B624F69F24FFE05F0014EC8D /* EndlessMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessMovieUITests.swift; sourceTree = "<group>"; };
 		B624F6A124FFE05F0014EC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B624F6AD24FFE0F80014EC8D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				B624F67D24FFE05E0014EC8D /* SceneDelegate.swift */,
 				B624F67F24FFE05E0014EC8D /* ViewController.swift */,
 				B624F68124FFE05E0014EC8D /* Main.storyboard */,
+				B624F6AD24FFE0F80014EC8D /* PlayerView.swift */,
 				B624F68424FFE05E0014EC8D /* ContentView.swift */,
 				B624F68624FFE05F0014EC8D /* Assets.xcassets */,
 				B624F68824FFE05F0014EC8D /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				B624F68024FFE05E0014EC8D /* ViewController.swift in Sources */,
 				B624F67C24FFE05E0014EC8D /* AppDelegate.swift in Sources */,
 				B624F68524FFE05E0014EC8D /* ContentView.swift in Sources */,
+				B624F6AE24FFE0F80014EC8D /* PlayerView.swift in Sources */,
 				B624F67E24FFE05E0014EC8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
