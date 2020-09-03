@@ -17,7 +17,6 @@
 		B624F69524FFE05F0014EC8D /* EndlessMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F69424FFE05F0014EC8D /* EndlessMovieTests.swift */; };
 		B624F6A024FFE05F0014EC8D /* EndlessMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F69F24FFE05F0014EC8D /* EndlessMovieUITests.swift */; };
 		B624F6AE24FFE0F80014EC8D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F6AD24FFE0F80014EC8D /* PlayerView.swift */; };
-		B624F6B425005A580014EC8D /* ExternalSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624F6B325005A580014EC8D /* ExternalSceneDelegate.swift */; };
 		B656D7E825006CAD00B47E79 /* ExternalDisplay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B656D7E725006CAD00B47E79 /* ExternalDisplay.storyboard */; };
 		B656D7EA25006D6D00B47E79 /* ExternalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656D7E925006D6D00B47E79 /* ExternalViewController.swift */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		B624F69F24FFE05F0014EC8D /* EndlessMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessMovieUITests.swift; sourceTree = "<group>"; };
 		B624F6A124FFE05F0014EC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B624F6AD24FFE0F80014EC8D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		B624F6B325005A580014EC8D /* ExternalSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalSceneDelegate.swift; sourceTree = "<group>"; };
 		B656D7E725006CAD00B47E79 /* ExternalDisplay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExternalDisplay.storyboard; sourceTree = "<group>"; };
 		B656D7E925006D6D00B47E79 /* ExternalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +109,6 @@
 			children = (
 				B624F67B24FFE05E0014EC8D /* AppDelegate.swift */,
 				B624F67D24FFE05E0014EC8D /* SceneDelegate.swift */,
-				B624F6B325005A580014EC8D /* ExternalSceneDelegate.swift */,
 				B624F67F24FFE05E0014EC8D /* ViewController.swift */,
 				B656D7E925006D6D00B47E79 /* ExternalViewController.swift */,
 				B624F68124FFE05E0014EC8D /* Main.storyboard */,
@@ -277,7 +274,6 @@
 				B624F68024FFE05E0014EC8D /* ViewController.swift in Sources */,
 				B624F67C24FFE05E0014EC8D /* AppDelegate.swift in Sources */,
 				B624F68524FFE05E0014EC8D /* ContentView.swift in Sources */,
-				B624F6B425005A580014EC8D /* ExternalSceneDelegate.swift in Sources */,
 				B624F6AE24FFE0F80014EC8D /* PlayerView.swift in Sources */,
 				B624F67E24FFE05E0014EC8D /* SceneDelegate.swift in Sources */,
 				B656D7EA25006D6D00B47E79 /* ExternalViewController.swift in Sources */,

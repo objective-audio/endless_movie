@@ -13,12 +13,6 @@ class ExternalViewController: UIViewController {
     @IBOutlet weak var playerView: PlayerView!
     
     private var cancellables: Set<AnyCancellable> = .init()
-    
-    class func instantiate() -> Self {
-        let storyboard = UIStoryboard(name: "ExternalDisplay", bundle: nil)
-        guard let viewController = storyboard.instantiateInitialViewController() as? Self else { fatalError() }
-        return viewController
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

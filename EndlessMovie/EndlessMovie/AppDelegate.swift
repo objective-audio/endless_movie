@@ -23,9 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         switch connectingSceneSession.role {
         case .windowExternalDisplay:
-            let config = UISceneConfiguration(name: "External Configuration", sessionRole: connectingSceneSession.role)
-            config.delegateClass = ExternalSceneDelegate.self
-            return config
+            return UISceneConfiguration(name: "External Configuration", sessionRole: connectingSceneSession.role)
         default:
             return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
         }
