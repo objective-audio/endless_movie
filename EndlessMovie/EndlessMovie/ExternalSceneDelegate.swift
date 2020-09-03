@@ -21,6 +21,10 @@ class ExternalSceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(frame: windowScene.screen.bounds)
         window.windowScene = windowScene
         window.backgroundColor = .red
+        
+        let viewController = ExternalViewController.instantiate()
+        window.rootViewController = viewController
+        
         window.isHidden = false
         
         self.window = window
