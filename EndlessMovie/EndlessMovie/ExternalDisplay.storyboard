@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wNJ-km-TCT">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17124"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--External View Controller-->
+        <scene sceneID="yTR-0r-YXB">
+            <objects>
+                <viewController id="wNJ-km-TCT" customClass="ExternalViewController" customModule="EndlessMovie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uPZ-7H-Cy0">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2G-QL-my0" customClass="PlayerView" customModule="EndlessMovie" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aKs-CR-c8d"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="R2G-QL-my0" firstAttribute="leading" secondItem="uPZ-7H-Cy0" secondAttribute="leading" id="JRd-w5-m7Z"/>
+                            <constraint firstAttribute="bottom" secondItem="R2G-QL-my0" secondAttribute="bottom" id="YQO-Qa-WQh"/>
+                            <constraint firstItem="R2G-QL-my0" firstAttribute="top" secondItem="uPZ-7H-Cy0" secondAttribute="top" id="mOv-Ur-MpZ"/>
+                            <constraint firstAttribute="trailing" secondItem="R2G-QL-my0" secondAttribute="trailing" id="zG8-5d-QTs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playerView" destination="R2G-QL-my0" id="pK2-ve-FLv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvw-tW-rdr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="228"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
